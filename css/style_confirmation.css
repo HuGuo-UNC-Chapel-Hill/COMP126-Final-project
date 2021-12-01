@@ -201,7 +201,6 @@ main .container .picture img {
     height: auto;
     width: 30%;
     max-width: 300px;
-    transform-origin: center left;
 }
 
 .animated-div {
@@ -210,11 +209,11 @@ main .container .picture img {
 
 @keyframes small-to-big {
     0% {
-        transform: scale(0.2) rotate(0deg);
+        transform: scale(0.1) rotateX(0deg);
     }
 
     100% {
-        transform: scale(1) rotate(360deg);
+        transform: scale(1) rotateX(360deg);
     }
 }
 
@@ -230,7 +229,7 @@ main .container h1 {
 }
 
 .animated-show {
-    animation: disappear 1.4s linear 1;
+    animation: disappear 1.3s linear 1;
 }
 
 @keyframes disappear {
