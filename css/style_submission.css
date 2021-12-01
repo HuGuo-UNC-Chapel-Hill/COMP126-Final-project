@@ -177,17 +177,21 @@ main .sidenav a:focus {
 
 main .container {
     width: 100%;
+    background-color: #023047;
+}
+
+main .container .filler {
+    height: 5%;
 }
 
 main .container form {
-    max-width:  100%;
+    margin: 0 auto;
+    max-width:  70%;
     padding: 10px 20px;
     font-family: "Robot", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #ffb703;
-    background-color: #023047;
-    
   }
   
 main .container fieldset {
@@ -229,6 +233,7 @@ main .container button {
     margin:0 auto;
     padding: 15px;
     width: 200px;
+    height: 50px;
     border-radius: 5px;
     font-family: "Robot", sans-serif;
     font-weight: 600;
