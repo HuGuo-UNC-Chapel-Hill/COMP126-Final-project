@@ -187,7 +187,6 @@ main .container {
 }
 
 main .container .picture {
-    margin-top: 8%;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: flex;
@@ -197,8 +196,8 @@ main .container .picture {
 
 main .container .picture img {
     height: auto;
-    width: 30%;
-    max-width: 300px;
+    width: 20%;
+    max-width: 250px;
 }
 
 .animated-div {
