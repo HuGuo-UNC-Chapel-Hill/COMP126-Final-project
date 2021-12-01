@@ -184,11 +184,12 @@ main .container {
     background-color: #023047;
     display: grid;
     grid-template-columns: 10px 1fr 10px;
-    grid-template-rows: 10px 3fr 20px 1fr 10px;
+    grid-template-rows: 10px 3fr 30px 1fr 10px;
 
 }
 
 main .container .picture {
+    margin-top: 8%;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: flex;
