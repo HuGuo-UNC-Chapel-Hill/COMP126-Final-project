@@ -38,8 +38,7 @@ header .title {
     grid-row: 2 / 3;
 }
 
-header .title h1,
-header .title p {
+header .title h1 {
     color: #ffb703;
     font-size: 30px;
     font-family: "Robot", sans-serif;
@@ -47,8 +46,7 @@ header .title p {
 }
 
 @media screen and (min-width: 750px) {
-    header .title h1,
-    header .title p {
+    header .title h1 {
         font-size: 35px;
     }
 }
@@ -304,12 +302,21 @@ nav a:focus {
 footer {
     margin-top: 20px;
     height: 7vh;
-    color: #ffb703;
-    font-size: 18px;
-    font-family: "Robot", sans-serif;
-    font-weight: 400;
     background-color: #023047;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer h2 {
+    color: #ffb703;
+    font-family: "Robot", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 800px) {
+    footer h2 {
+        font-size: 22px;
+    }
 }

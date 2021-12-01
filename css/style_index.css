@@ -37,8 +37,7 @@ header .title {
     grid-row: 2 / 3;
 }
 
-header .title h1,
-header .title p {
+header .title h1 {
     color: #ffb703;
     font-size: 30px;
     font-family: "Robot", sans-serif;
@@ -46,8 +45,7 @@ header .title p {
 }
 
 @media screen and (min-width: 750px) {
-    header .title h1,
-    header .title p {
+    header .title h1 {
         font-size: 35px;
     }
 }
@@ -249,7 +247,6 @@ main .button_ticket {
 }
 
 footer {
-    margin-bottom: 20px;
     height: 7vh;
     background-color: #023047;
     display: flex;
@@ -257,7 +254,7 @@ footer {
     align-items: center;
 }
 
-footer p {
+footer h2 {
     color: #ffb703;
     font-family: "Robot", sans-serif;
     font-weight: 400;
@@ -295,7 +292,7 @@ a:focus {
         max-width: 65%;
     }
 
-    footer p {
-        font-size: 30px;
+    footer h2 {
+        font-size: 22px;
     }
 }
