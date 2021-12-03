@@ -201,15 +201,17 @@ main .container .picture img {
 }
 
 .animated-div {
-    animation: small-to-big 1s linear 1;
+    animation: small-to-big 1s ease-in-out 1;
 }
 
 @keyframes small-to-big {
     0% {
+        transform-origin: bottom right 60px;
         transform: scale(0.1) rotateX(0deg);
     }
 
     100% {
+        transform-origin: bottom right 60px;
         transform: scale(1) rotateX(360deg);
     }
 }
@@ -223,7 +225,7 @@ main .container h1 {
     font-family: "Robot", sans-serif;
     font-weight: 600;
     margin: 0 auto;
-    text-shadow: 2px 2px  #8ECAE6;
+    text-shadow: 0px 3px  #219EBC;
 }
 
 .animated-show {
