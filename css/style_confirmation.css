@@ -20,7 +20,7 @@ header {
     background-color: #023047;
     display: grid;
     grid-template-columns: 10px 40% 10px 55% 10px;
-    grid-template-rows: 22% 1fr 10%;
+    grid-template-rows: 10% 1fr 10%;
 }
 
 header .logo {
@@ -29,8 +29,7 @@ header .logo {
     background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: 50%;
-    background-position-y: 10%;
+
 }
 
 header .title {
@@ -39,14 +38,31 @@ header .title {
 }
 
 header .title h1 {
-    color: #ffb703;
-    font-size: 30px;
+    font-size: 28px;
     font-family: "Robot", sans-serif;
     font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*study the codes from the video on Youtube:  https://www.youtube.com/watch?v=ANKNNKPJAMI*/
+.color_changing {
+    background: linear-gradient(90deg, #8ECAE6, #ffb703, #219EBC);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: changing 4s linear infinite;
+}
+
+@keyframes changing {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
 }
 
 @media screen and (min-width: 750px) {
-
     header .title h1 {
         font-size: 35px;
     }
@@ -183,7 +199,6 @@ main .container {
     display: grid;
     grid-template-columns: 10px 1fr 10px;
     grid-template-rows: 10px 3fr 30px 1fr 10px;
-
 }
 
 main .container .picture {
@@ -225,7 +240,7 @@ main .container h1 {
     font-family: "Robot", sans-serif;
     font-weight: 600;
     margin: 0 auto;
-    text-shadow: 0px 3px  #219EBC;
+    text-shadow: 1px 2px  #FB8500;
 }
 
 .animated-show {
