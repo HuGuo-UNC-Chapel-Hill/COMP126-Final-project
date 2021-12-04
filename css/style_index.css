@@ -43,7 +43,7 @@ header .title h1 {
     text-transform: uppercase;
 }
 
-/*study the codes from the video on Youtube:  https://www.youtube.com/watch?v=ANKNNKPJAMI*/
+/* study the codes from the video on Youtube:  https://www.youtube.com/watch?v=ANKNNKPJAMI */
 .color_changing {
     background: linear-gradient(90deg, #8ECAE6, #219EBC, #ffb703, #219EBC);
     background-size: 400%;
