@@ -210,7 +210,6 @@ main .container .picture {
 }
 
 main .container .picture img {
-    height: auto;
     width: 20%;
     max-width: 250px;
 }
