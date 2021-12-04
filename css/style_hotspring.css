@@ -45,7 +45,7 @@ header .title h1 {
 
 /*study the codes from the video on Youtube:  https://www.youtube.com/watch?v=ANKNNKPJAMI*/
 .color_changing {
-    background: linear-gradient(90deg, #8ECAE6, #ffb703, #219EBC);
+    background: linear-gradient(90deg, #8ECAE6, #219EBC, #ffb703, #219EBC);
     background-size: 400%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
